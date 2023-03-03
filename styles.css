@@ -1,214 +1,210 @@
 header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: #ECB390;
-    color: #FCF8E8;
-    font-family: 'Montserrat', sans-serif;
-
-     }
-
-
-body { margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    background-color:#FCF8E8;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ecb390;
+  color: #fcf8e8;
+  font-family: "Montserrat", sans-serif;
 }
 
-h1 { margin: 50px auto 0 auto;
-     font-size: 5.625rem;
-     font-family: 'Sacramento', cursive;
-     color: #91b89f;
-     line-height:2;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #fcf8e8;
 }
 
-h2{ font-family: 'Montserrat', sans-serif;
- font-size: 2.5rem;
- color:#94B49F;
- font-weight: normal;
- padding-bottom: 10px;
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  color: #91b89f;
+  line-height: 2;
 }
 
-h3 { font-family: 'Montserrat', sans-serif;
- color: #41d8dd;
- font-size: 1.3rem
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #94b49f;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
-#navbar a, .bottom-container a{  color:#FCF8E8;
- font-family: 'Montserrat', sans-serif;
- margin: 20px 20px;
- text-decoration: none;
- font-size: 20px;
- line-height: 2;
- border-radius: 6px;
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #41d8dd;
+  font-size: 1.3rem;
 }
 
+#navbar a,
+.bottom-container a {
+  color: #fcf8e8;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 2;
+  border-radius: 6px;
+}
 
 p {
- line-height: 2;
+  line-height: 2;
 }
 
 hr {
- border: dotted #ECB390 6px;
- border-bottom: none;
- width: 4%;
- margin: 100px auto;
+  border: dotted #ecb390 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .top-container {
- background-color:#CEE5D0;
- position: relative;
- padding-top: 100px;
- /* margin: 50px; */
-/* width: 100%; */
+  background-color: #cee5d0;
+  position: relative;
+  padding-top: 100px;
+  /* margin: 50px; */
+  /* width: 100%; */
 }
 
 .middle-container {
- margin: 100px 0;
+  margin: 100px 0;
 }
 
-
-.bottom-container  {
- background-color:#ECB390;
- padding: 50px 0 20px;
- color:#FCF8E8 ;
- 
+.bottom-container {
+  background-color: #ecb390;
+  padding: 50px 0 20px;
+  color: #fcf8e8;
 }
 
 .skills-row {
- width: 50%;
- margin: 100px auto 100px auto;
- text-align: left;
- line-height: 2;
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .skills-img {
-    float: right;
-    margin: 20px;
-
+  float: right;
+  margin: 20px;
 }
 
 .contact-me {
- width: 30%;
- margin: 40px auto 60px;
+  width: 30%;
+  margin: 40px auto 60px;
 }
 
 .top-cloud {
- position: absolute;
+  position: absolute;
 
- right: 300px;
- top: 40px;
+  right: 300px;
+  top: 40px;
 }
 
 .bottom-cloud {
- position:absolute;
- left: 250px;
- bottom:300px;
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
 }
 
 img.mountain {
-    width: 90%;
-    max-width: 598px;
+  width: 90%;
+  max-width: 598px;
 }
 
 .sue-profile {
- width: 50%;
- border-radius: 50%;
- background-color: #ECB390;
- float: left;
- margin: 40px 30px;
+  width: 50%;
+  border-radius: 50%;
+  background-color: #ecb390;
+  float: left;
+  margin: 40px 30px;
 }
 
 .profile {
- width: 50%;
- margin: 0 auto 0 auto;
- text-align: left;
- line-height: 2;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .profile h2 {
- margin: 0;
+  margin: 0;
 }
 
-
-.project-tile a{
-    line-height: 3;
-    border-radius: 7px;
-    font-family:  'Merriweather', serif;;
-    color:  #91b89f;
-    text-align: center;
-    text-decoration: none;
-    padding: 1rem;
-    font-size: 1rem;
-
+.project-tile a {
+  line-height: 3;
+  border-radius: 7px;
+  font-family: "Merriweather", serif;
+  color: #91b89f;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1rem;
 }
-.project-tile  :hover{
- background: #91b89f;
- color: #FCF8E8;
+.project-tile :hover {
+  background: #91b89f;
+  color: #fcf8e8;
 }
 
 /* For screen(browser) with width bigger than... 720px on this case */
 @media only screen and (min-width: 720px) {
-    .sue-profile {
-        width: 23%;
-    }
+  .sue-profile {
+    width: 23%;
+  }
 }
 
 #welcome-section {
-    font-size: 1vh;
+  font-size: 1vh;
 }
 
 .contact-me a {
-    border-radius: 5px;
-    line-height: 2;
-    font-family: 'Montserrat', sans-serif;
-    padding: .25rem .5rem;
-    color:#41d8dd;
-    transition: all .2s ease;
-    font-size: inherit;
+  border-radius: 5px;
+  line-height: 2;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.25rem 0.5rem;
+  color: #41d8dd;
+  transition: all 0.2s ease;
+  font-size: inherit;
 }
 
-.contact-me a:hover{
-    background: #91b89f;
-    color: #FCF8E8;
-    text-decoration: none;
-
- }
-
- .projects-grid a{
-    color:#ECB390;
-    transition: all .2s ease;
-    font-size: inherit;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column-reverse;
+.contact-me a:hover {
+  background: #91b89f;
+  color: #fcf8e8;
+  text-decoration: none;
 }
-.projects-grid a:hover{
-        color: #91b89f;
-        text-decoration: none;;
-        
-    }
 
- .projects-grid {
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 10rem;
-    width: 85%;
-    max-width: 1280px;
-    margin: auto auto;
-    margin-bottom: 6rem;
-    transition: all 0.2s ease-out;
-    padding: 7px 5px;
-    align-items: center;
-  }
+.projects-grid a {
+  color: #ecb390;
+  transition: all 0.2s ease;
+  font-size: inherit;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.projects-grid a:hover {
+  color: #91b89f;
+  text-decoration: none;
+}
 
-    a.pdf-link {
-    font-family: 'Montserrat', sans-serif;
-    color:#41d8dd;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.5rem
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 10rem;
+  width: 85%;
+  max-width: 1280px;
+  margin: auto auto;
+  margin-bottom: 6rem;
+  transition: all 0.2s ease-out;
+  padding: 7px 5px;
+  align-items: center;
+}
+
+a.pdf-link {
+  font-family: "Montserrat", sans-serif;
+  color: #41d8dd;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
